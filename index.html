@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>The LaTaDa App</title>
-    
-    <link rel="icon" type="image/png" href="./assets/favicon.png">
-    <link rel="stylesheet" href="./assets/styles.css">
-
+  <meta charset="UTF-8" />
+  <title>not another todo app 🤦🏿‍♂️</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="another todo app project" />
+  <link rel="stylesheet" type="text/css" href="./assets/styles.css" />
+  <link rel="icon" href="./assets/favicon.png">
+  <script src="./assets/scripts.js" defer></script>
 </head>
 <body>
-    <h1>The LaTaDa App</h1>
-    <div class="input-group mb-3 change-width">
-        <input type="text" id="userTask" placeholder="Add new task..." autofocus>
-        <button onclick="addNewTask()">Add</button>
-    </div>
-
+  <h1>The LaTada App</h1>
+ 
+  <input placeholder="Add new task..." id="userInput">
+  <button onclick="addNewTask()"> + </button>
+  <div class="pending-class">
     <ul id="pendingTasks"></ul>
+  </div>
+  <hr>
+  <div class="completed-class">
     <ul id="completedTasks"></ul>
-
-    <script src="./assets/script.js"></script>
+  </div>
+  
 </body>
 </html>
