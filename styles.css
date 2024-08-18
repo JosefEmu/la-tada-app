@@ -1,0 +1,18 @@
+body {
+  background-color: #fff;
+  max-width: 80%;
+  margin: 5% auto;
+  font-family: 'Noto Sans', 'Roboto', Calibri, sans-serif;
+
+};
+
+
+li {
+  list-style-type: none;
+};
+
+#userInput {
+  width: 90%;
+};
+
+/* inspo -https://tweek.so/calendar/premium */
